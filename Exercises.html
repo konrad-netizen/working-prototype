@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="gradiant.css">
+    <title>Skeleton Website</title>
+	
+</head>
+
+<body>
+
+
+    <header>
+		<h1>Basic Cyber security</h1>
+             <nav class="navbar" >
+            <ul>
+			
+                <button><a href="C:\Users\44791\Documents\New folder\Home.html">Home</a></button>
+                <button><a href="C:\Users\44791\Documents\New folder\Glossary.html">Glossary</a></button>
+				<button><a href="C:\Users\44791\Documents\New folder\Beginner info.html">Beginner info</a></button>
+                <button><a href="C:\Users\44791\Documents\New folder\Linux.html">Linux</a></button>
+                <button><a href="C:\Users\44791\Documents\New folder\Exercises.html">Exercises</a></button>
+            </ul>
+			
+			
+
+
+
+			
+        </nav>
+		<div id="gradiant"></div>
+			
+    </header>
+
+    <main>
+        <section>
+            <h2>Welcome to the cyber security exercises page</h2>
+            <p>in this page we will allow you to test out your knowledge with simple quizzes and exercises, simply type in the letter to anwser </p>
+        </section>
+  
+<!-- 	
+	<script src="quiz.js" defer></script>
+	<div id="quiz"></div>
+	<button id="submitBtn()">Submit</button>
+	<p id="result"></p>
+ -->
+    
+	<script>
+	function checkQuiz()
+	{
+		event.preventDefault();
+		let score = 0;
+		var x = document.getElementById("quiz");
+		if(x.elements[0].value == "B")
+		{
+			score +=1;
+		}
+		if(x.elements[1].value == "A")
+		{
+			score +=1;
+		}
+		if(x.elements[2].value == "A")
+		{
+			score +=1;
+		}
+		
+			if(x.elements[3].value == "B") 
+		{
+			score +=1;
+		}
+		
+			
+			if(x.elements[4].value == "B") 
+		{
+			score +=1;
+		}
+		
+			
+			if(x.elements[5].value == "B") 
+		{
+			score +=1;
+		}
+		
+			
+			if(x.elements[6].value == "B") 
+		{
+			score +=1;
+		}
+		
+			
+			if(x.elements[7].value == "B") 
+		{
+			score +=1;
+		}
+		
+		
+				if(x.elements[8].value == "C") 
+		{
+			score +=1;
+		}
+		
+				if(x.elements[9].value == "B") 
+		{
+			score +=1;
+		}
+		
+				if(x.elements[10].value == "B") 
+		{
+			score +=1;
+		}
+		
+		
+		
+	
+		document.getElementById("results").innerHTML = "your final score is: " + score;
+	}
+
+
+
+	</script>
+	
+	<form id ='quiz'>
+		<p>Who is the malicous hacker? "A:white hat", "B:black hat", "C:grey hat"</p>
+		<input type ='text' name = 'q1' value = " "> 
+		
+		<p>Which company developed windows?? "A:Microsoft", "B:Netscape", "C:Google"</p>
+		<input type ='text' name = 'q2' value = " "> 
+		
+		<p>Who is the malicous hacker? "A:Hyper Text Transfer Protocol", "B:High Text Transport Process", "C:Hyperlink Transfer Tool"</p>
+		<input type ='text' name = 'q3' value = " "> 
+	
+		<p>What does “phishing” refer to in cybersecurity "A: Catching malware in a network", "B: Attempting to trick people into giving personal information", "C: Hacking a server physically"</p>
+		<input type ='text' name = 'q4' value = " "> 
+	
+		<p>Which of the following is a strong password practice "A:Using your birthdate", "B:Using a mix of letters, numbers, and symbols", "C:Using “password123”"</p>
+		<input type ='text' name = 'q5' value = " ">
+		
+		<p>What is malware? "A:A type of hardware", "B:Malicious software designed to harm or exploit devices", "C: A network protocol"</p>
+		<input type ='text' name = 'q6' value = " "> 
+		
+		<p>What does “two-factor authentication” (2FA) provide? "A:Faster internet", "B:An extra layer of security by requiring two forms of verification", "C:Free antivirus software"</p>
+		<input type ='text' name = 'q7' value = " "> 
+		
+		<p>What is the primary purpose of a firewall?"A:To physically block intruders from entering a building", "B:To prevent unauthorized access to a network or device", "C:To remove viruses from files</p>
+		<input type ='text' name = 'q8' value = " "> 
+		
+		<p>Which of the following is a sign that an email might be a scam? "A:It has your name spelled correctly", "B:It comes from a known contact", "C: It asks for sensitive information or login credentials"</p>
+		<input type ='text' name = 'q9' value = " "> 
+		
+		<p>What is ransomware? "A:A type of phishing attack", "B:Malware that locks your files and demands payment to unlock them", "C:Software that improves computer speed"</p>
+		<input type ='text' name = 'q10' value = " "> 
+		
+		<p>Why is it important to keep software updated? "A:Updates improve graphics", "B:Updates fix security vulnerabilities and bugs", "C:Updates make devices heavier"</p>
+		<input type ='text' name = 'q11' value = " "> 
+	
+	
+	
+	
+	
+	
+	
+	
+			 <p></p>
+		<button onclick = "checkQuiz()"> Submit Anwser </button>
+		<p id ="results"></p>
+	</form>
+	
+	</main>
+	
+	<div>Bonus question </div>
+	
+	<form>
+	<img src="C:\Users\44791\Documents\New folder\scam one.jpg""
+	height="200"
+	alt="scame">
+	
+	
+	<p>please input any issues with the website</p>
+	<input type="text" id="issues" minlength="10"  required>
+	<input type="submit"
+	</form>
+	 <br></br>
+	 <p></p>
+
+	
+	<footer>Please use this link to fill out a quick form to improve this website 
+	<p><a href= "https://forms.office.com/e/kPaf5Z1sHh">Form<a/>
+	</footer>
+	
+	
+	
+	
+
+	
+
+<!-- https://medium.com/@codepicker57/building-an-interactive-quiz-with-html-css-and-javascript-efe9bd8129e2
+ -->		
+	
+  
+</body>
+</html>
