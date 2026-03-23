@@ -1,0 +1,7 @@
+add a glossary website	
+instead of one question add more
+change the design of the website from green and purple to white background and scrollable images to be 
+displayed on the site as the text appears on them (eiter white or black im not decided yet)
+make a windows alert disclaimer 
+separate biginner info into two words
+buisnesses dont exist explain why ?(i decided to make things like isc and iee and gdpr requlations and standards to be in home section as they are universally good practices)

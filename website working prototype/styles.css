@@ -1,0 +1,142 @@
+h1{
+	text-align: center
+}
+.navbar ul{
+
+  list-style-type: none;
+}
+
+.navbar ul{
+	list-style-type: none;
+	background-color: #A9A9A9
+	padding: 5px;
+	margin: 5px;
+}
+
+.navbar a{
+	color:white
+	text-decoration: none;
+	padding: 15px;
+	display: block;
+	text-align: center;
+	
+}
+
+.navbar a:hover{
+	
+	background-color: #A9A9A9
+}
+
+ 
+
+.navbar{
+float: left;
+}
+
+
+
+li a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555555;
+  color: white;
+}
+
+header {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+
+body {
+	height: 100vh;
+	padding: 2em;
+	/* background: #df5757; */
+	color: black;
+	border: 15px /* solid blue */;
+}
+
+main{
+	flex: 70%;
+	height: 100vh;
+	padding: 2em;
+	margin-left:	20px;
+	margin-right:	20px;
+
+}
+
+footer{
+	display: block;
+	clear: both;
+	background-color: #A9A9A9;
+	text-align: center;
+	padding: 25px;
+	
+}
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+
+
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .example {background: red;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .example {background: green;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .example {background: blue;}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .example {background: orange;}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .example {background: pink;}
+}
